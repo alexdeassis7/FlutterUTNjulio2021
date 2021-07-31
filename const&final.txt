@@ -1,0 +1,24 @@
+void main() {
+  print('Hello, World!');
+//Final: El valor debe conocerse en tiempo de compicaiòn ,
+  //asiganacion unica , una variable o un campo , una vez asignado no se puede mutar
+  
+ // Const = el valor debe conocercese en tiempo de ejecucion . no se puede cambiar despues de inicializado
+  
+  final nombre = 'Alex';
+  final IP = '1.156.25.25';
+  const PI = 3.1416;
+  
+  const divisor =  2 * PI;
+  
+  var radio = 15 / divisor ;
+  
+  print('Radio : ' + radio.toString());
+  print(IP);
+  print(nombre);
+
+}
+
+
+
+

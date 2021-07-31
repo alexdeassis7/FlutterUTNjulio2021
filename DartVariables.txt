@@ -1,0 +1,53 @@
+void main() {
+  print('Hello, World!');
+  
+  //soy un comentario de linea 
+  
+  /*SOy un comentario
+   * de
+   * bloque 
+   * */
+  
+  //Variables
+  //Fuertemente "tipado"
+  //todas las variables por default son objetos y extienden de la clase Object
+  //si no le asignamos un valor inicial por defecto son null
+  
+  
+  var nombre;
+  var apellido = "De Assis";
+  nombre = 'alex';
+  
+  
+ print(nombre);
+ print(apellido);
+ 
+  
+  //modificador de visibilidad private :no puede ser vista desde fuera de la clase 
+  var _soyUnaVariablePrivate;
+  
+  //invocamos al metodo validador 
+  conocerTipo(nombre);
+  //ahora la variable nombre tendra un numero
+  nombre = 1215;
+  conocerTipo(nombre);
+
+  
+  dynamic message = 'hello';
+  
+  message = 8 ;
+}
+
+
+//Metodo Validador de tipo de dato 
+conocerTipo(dynamic variable){
+  
+  //validamos que tipo de dato es 
+  if(variable is String)
+    print('la variable es de tipo String');
+  else
+    print('nombre No es de Tipo String');
+  
+}
+
+

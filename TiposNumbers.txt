@@ -1,0 +1,44 @@
+void main() {
+//tipos numbers
+  //int , double (ambos vienen heredados del tipo num )
+
+    //utilizamos el tipo inferido 
+  //int
+  var numero = 1 ;
+  int numeroDos = 23;
+  
+  //double 
+  var miNumero =   1.1 ; 
+  double miNumeroDos = 1.6;
+  
+  print(numero);
+  
+  print(numeroDos);
+
+  print(miNumero);
+
+  print(miNumeroDos);  
+  
+  //NUM 
+  //num es generico a los numeros int y double
+  num z = -1 ;
+  
+  //utilizamos abs() para ver el valor absoluto
+  print(z.abs());
+  
+  //funcion ceil
+  print(miNumero.ceil());
+  
+  //funcion floor
+  print(miNumeroDos.floor());
+  
+  //
+    double real = 1 ;
+  print(real);
+  
+  
+}
+
+
+
+
