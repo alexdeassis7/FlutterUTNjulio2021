@@ -5,8 +5,8 @@ class Persona {
   Persona(this._nombre, this._apellido);
 
   void muestraPersona(Persona p) {
-    print(p._nombre);
-    print(p._apellido);
+    print("nombre: " + p._nombre);
+    print("apellido: " + p._apellido);
   }
 
   //Getters Funciones que sirven para conocer el estado de un atributo
