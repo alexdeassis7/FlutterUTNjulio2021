@@ -39,3 +39,5 @@ flutter run (para ejecutar nuestra app)
 *pubspec.yaml => Gestion de paquetes y uso de versiones : https://flutter.dev/docs/development/packages-and-plugins/using-packages
 
 *Problemas para instalar paquetes ?  https://stackoverflow.com/questions/55771635/flutter-packages-get-does-not-install-new-package
+
+*Flutter web -  https://medium.com/comunidad-flutter/flutter-para-la-web-91d8b217ad35
