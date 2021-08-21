@@ -3,9 +3,9 @@ _Curso de Flutter dev UTN Extension Universitaria y Post Grado
 
 
 ## Clase2 :
-_Investigar Colleciones de Datos https://api.dart.dev/stable/2.13.4/dart-collection/SplayTreeSet-class.html
+_Investigar Colleciones de Datos https://api.dart.dev/stable/2.13.4/dart-collection/SplayTreeSet-class.html_
 ## Clase3 :
-_Realizar Ejercitacion de Sintaxis Dart  https://github.com/alexdeassis7/FlutterUTNjulio2021/tree/main/EjecitacionPracticaDart
+_Realizar Ejercitacion de Sintaxis Dart  https://github.com/alexdeassis7/FlutterUTNjulio2021/tree/main/EjecitacionPracticaDart_
 ## Clase4 :
 _Configuracion de Enviroment Dev
 
