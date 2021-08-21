@@ -41,3 +41,8 @@ flutter run (para ejecutar nuestra app)
 *Problemas para instalar paquetes ?  https://stackoverflow.com/questions/55771635/flutter-packages-get-does-not-install-new-package
 
 *Flutter web -  https://medium.com/comunidad-flutter/flutter-para-la-web-91d8b217ad35
+
+*Plus -extras WEb + mobile deploy-  https://medium.com/flutter-community/programming-on-your-phone-a2547f0e293
+
+* archivos y carpetas de un proyecto fluterr : https://medium.com/codingthesmartway-com-blog/getting-started-with-flutter-2-project-structure-8066bde05270
+
