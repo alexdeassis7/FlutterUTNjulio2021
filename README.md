@@ -61,3 +61,7 @@ Tarea : ver siguientes links https://flutter.dev/docs/development/tools/devtools
 
 Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
 
+
+### temas alumnos
+Rest consumer Service - Bloc Patron - Stream Builder - Circular progress Indicator (animaciones asincronicas)
+
