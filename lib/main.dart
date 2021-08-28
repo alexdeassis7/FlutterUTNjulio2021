@@ -1,128 +1,80 @@
-/*Enunciado Ejercicio 2 :
-
-2)	Crear un  StatelessWidget que posea cuatro Card widgets , cada Card debe mostrar una palabra y un Icon 
-Card 1 -> Palabra : “Favorite” , Icon : “favorite” 
-Card 2 -> Palabra : “Alarm” , Icon : “alarm” 
-Card 3 -> Palabra : “Airport Shuttle” , Icon : “airport_shuttle” 
-Card 4 -> Palabra : “Done” , Icon : “done” 
-*/
 import 'package:flutter/material.dart';
 
+/*3)Enunciado	Retaurant App : 
+Crear una app que permita calcular la propina que desea dejar cada comenzal al retirarse del restorant, 
+esta debe permitir ingresar el monto total de la factura y el porcentaje que desea dejar de propina al mozo ,
+ al presion el boton de “Calcular” debera mostrar la propina calculada y el prefio final (total De Factura + Propina)
+*/
 void main() {
-  runApp(MaterialApp(
-    home: MyApp(),
-    theme: ThemeData(primaryColor: Colors.green),
-  ));
+  runApp(MaterialApp(title: 'Tip Calculator', home: TipCalculator()));
 }
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    //declaramos constantes para definir el tamaño del texto y del icono
-    final double myTextSize = 30.0;
-
-    final double myIconSize = 42.0;
-
-    final TextStyle myTextStyle = TextStyle(
-      color: Colors.grey,
-      fontSize: myTextSize,
-    );
-
-    var column = Column(
-      //Makes the cards stretch in horizontal axis
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: <Widget>[
-//Setup the card
-        MyCard(
-          //setup the text
-          title: Text(
-            "Favorito",
-            style: myTextStyle,
-          ),
-          //setup the icon
-          icon: Icon(
-            Icons.favorite,
-            size: myIconSize,
-            color: Colors.red,
-          ),
-        ),
-        MyCard(
-          //setup the text
-          title: Text(
-            "Alarm",
-            style: myTextStyle,
-          ),
-          //setup the icon
-          icon: Icon(
-            Icons.alarm,
-            size: myIconSize,
-            color: Colors.blue,
-          ),
-        ),
-        MyCard(
-          //setup the text
-          title: Text(
-            "Airport Shuttle",
-            style: myTextStyle,
-          ),
-          //setup the icon
-          icon: Icon(
-            Icons.airport_shuttle,
-            size: myIconSize,
-            color: Colors.yellow,
-          ),
-        ),
-        MyCard(
-          //setup the text
-          title: Text(
-            "Done",
-            style: myTextStyle,
-          ),
-          //setup the icon
-          icon: Icon(
-            Icons.done,
-            size: myIconSize,
-            color: Colors.green,
-          ),
-        ),
-      ],
-    );
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Stateless Widget!"),
-      ),
-      body: Container(
-        //set the padding in the main containner
-        padding: EdgeInsets.only(bottom: 2.0),
-        child: Center(
-          child: column,
-        ),
-      ),
-    );
-  }
-}
-
-//creamos un stateless widget Reusable
-class MyCard extends StatelessWidget {
+class TipCalculator extends StatelessWidget {
   //atributos de la clase
-  final Widget icon;
-  final Widget title;
-  //contructor de la clase
-  MyCard({required this.title, required this.icon});
+  double billAmount = 0.0; //total de la factura
+  double tipPercentage = 0.0; //porcentaje de propina
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.only(bottom: 1.0),
-      child: Card(
-        child: Container(
-          padding: EdgeInsets.all(20.0),
-          child: Column(
-            children: <Widget>[this.title, this.icon],
-          ),
-        ),
+    //Create first input field
+    TextField billAmountField = TextField(
+      keyboardType: TextInputType.number,
+      onChanged: (String value) {
+        try {
+          //intenta ejecutar el codigo y si falla se va directo al catch
+          billAmount = double.parse(value);
+        } catch (exception) {
+          //si el codigo que esta dentro de try genera un error se captura y modifica el valor del atributo billAmount
+          billAmount = 0.0;
+        }
+      },
+      decoration: InputDecoration(labelText: "Bill amount(\$)"),
+    );
+
+    //Create another input field
+    TextField tipPercentageField = TextField(
+      decoration: InputDecoration(labelText: "Tip %"),
+      keyboardType: TextInputType.number,
+      onChanged: (String value) {
+        try {
+          tipPercentage = double.parse(value);
+        } catch (exception) {
+          tipPercentage = 0.0;
+        }
+      },
+    );
+
+    //Create button
+    ElevatedButton calculateButton = ElevatedButton(
+      child: Text("Calculate"),
+      onPressed: () {
+        //calculate tip and total
+        double calculateTip = billAmount * tipPercentage / 100.0;
+        double total = billAmount + calculateTip;
+
+        //Generate Dialog
+        AlertDialog dialog = AlertDialog(
+          content: Text("Tip: \$ $calculateTip \n"
+              "Total: \$ $total"),
+        );
+
+        //showDialog : Muestra un cuadro de diàlogo de Material sobre el contenido actual
+        // de la app , con sus respectivas animaciones de entrada y salida de material
+        showDialog(context: context, builder: (BuildContext context) => dialog);
+      },
+    );
+
+    Container container = Container(
+      padding: const EdgeInsets.all(16.0),
+      child: Column(
+        children: [billAmountField, tipPercentageField, calculateButton],
       ),
     );
+
+    AppBar appBar = AppBar(title: Text("Tip Calculator"));
+
+    Scaffold scaffold = Scaffold(appBar: appBar, body: container);
+
+    return scaffold;
   }
 }
