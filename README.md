@@ -53,3 +53,5 @@ flutter run (para ejecutar nuestra app)
 
 * archivos y carpetas de un proyecto fluterr : https://medium.com/codingthesmartway-com-blog/getting-started-with-flutter-2-project-structure-8066bde05270
 
+*Layout leer siguiente tutorial https://esflutter.dev/docs/development/ui/layout
+
