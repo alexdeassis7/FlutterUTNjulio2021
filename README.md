@@ -55,3 +55,9 @@ flutter run (para ejecutar nuestra app)
 
 *Layout leer siguiente tutorial https://esflutter.dev/docs/development/ui/layout
 
+
+### Tarea Calse 5 
+Tarea : ver siguientes links https://flutter.dev/docs/development/tools/devtools y https://esflutter.dev/docs/development/ui/layout
+
+Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
+
