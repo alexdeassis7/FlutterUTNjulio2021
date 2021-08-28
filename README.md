@@ -18,9 +18,14 @@ Configuracion de Enviroment Dev
 
 Emulador Genymotion (sin VirtualBox) crear credenciales para poder utilizarlo + Virtual Box :https://www.genymotion.com/download/ , https://www.virtualbox.org/wiki/Downloads
 
+### Atajos Utilies VSCode Flutter
+
+Ctrl + alt + d => inicia el Dev Tools
+
 ### Comandos Utilies CLI Flutter
 
-*flutter doctor --verbose (chequeamos si tenems todo lo necesario para desarrollar)
+*flutter doctor --verbose (chequeamos si tenems todo lo necesario para desarrollar) , agregar la url que nos figura en la consola de VSCode
+por ejemplo : An Observatory debugger and profiler on sdk gphone x86 is available at: http://127.0.0.1:60535/YtuxI3ErmAo=/
 
 *flutter config --android-studio-dir="C:\Program Files\Android\Android Studio" (si tenemos algo mal al ejecutar comando flutter doctor ,por ejemplo si no detecta la instalacion de                 android podemos solucionarlo)
 
@@ -32,7 +37,9 @@ Emulador Genymotion (sin VirtualBox) crear credenciales para poder utilizarlo + 
 
 flutter run (para ejecutar nuestra app)
 
-### Links de Utilidad:
+### Links de Utilidad
+
+*Como utilizar Dev Tools Flutter/ Dart https://flutter.dev/docs/development/tools/devtools
 
 *como crear una app y comando Utiles del CLI flutter https://flutter.dev/docs/reference/flutter-cli
 
