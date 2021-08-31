@@ -1,6 +1,16 @@
+
 # FlutterUTNjulio2021
 _Curso de Flutter dev UTN Extension Universitaria y Post Grado
 
+
+## Empezando
+Este proyecto es un punto de partida para una aplicación Flutter.
+
+Algunos recursos para comenzar si este es su primer proyecto de Flutter:
+
+Laboratorios y documentaciones oficiales de utilidad
+https://flutter.dev/docs/cookbook
+https://flutter.dev/docs
 
 ## Clase2 :
 *Investigar Colleciones de Datos https://api.dart.dev/stable/2.13.4/dart-collection/SplayTreeSet-class.html
@@ -55,8 +65,7 @@ flutter run (para ejecutar nuestra app)
 
 *Layout leer siguiente tutorial https://esflutter.dev/docs/development/ui/layout
 
-
-### Tarea Calse 5 
+### Tarea Clase 5 
 Tarea : ver siguientes links https://flutter.dev/docs/development/tools/devtools y https://esflutter.dev/docs/development/ui/layout
 
 Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
