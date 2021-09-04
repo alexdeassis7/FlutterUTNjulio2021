@@ -74,3 +74,8 @@ Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
 ### temas alumnos
 Rest consumer Service - Bloc Patron - Stream Builder - Circular progress Indicator (animaciones asincronicas)
 
+### PARA EXPANDIAR O CONTRAER EL TAMAÑO DE NUESTRO EMULADOR :
+NOS POSICIONAMOS POR sobre la pantalla con los dos dedos del pad y con las flechas arriba y abajo cambiamos su tamaño
+### PARA PONERLO VERTICAL U HORIZONTAL AL EMULADOR :
+NOS POSICIONAMOS POR sobre la pantalla con los dos dedos del pad y con las flechas IZQUIERDA Y DERECHA LO giramos
+
