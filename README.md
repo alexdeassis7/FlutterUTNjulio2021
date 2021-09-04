@@ -71,6 +71,9 @@ Tarea : ver siguientes links https://flutter.dev/docs/development/tools/devtools
 Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
 
 ### Clase 6
+Ejercitacion Tarea : leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
+
+
 En una columna ,
 
 para centrar (o alinear) verticalmente , se utiliza mainAxisAlignment .
