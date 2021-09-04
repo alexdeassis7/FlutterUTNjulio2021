@@ -81,13 +81,11 @@ Ejercitacion Tarea :
 #### 2)en el Ejercicio WhatsUpp deberan parametrizar la clase "ChatItem" creando los atributos necesarios y un constructor que penmitar modificar los atributos de la clase 
     Ejemplo constructor  : ChatItem(urlImagen, mensajeRecibido , numeroDeCelularDeEmisorDeMensaje , hroaDeUltimoMensajeRecibido , cantidadDeMensajesSinLeer);
     
-
-En una columna ,
-
+## Centrado en Columnas y Filas (Column & Row)
+### En una columna :
 para centrar (o alinear) verticalmente , se utiliza mainAxisAlignment .
 para centrar (o alinear) horizontalmente , se utiliza crossAxisAlignment .
-En una fila ,
-
+### En una fila :
 para centrar (o alinear) horizontalmente , se utiliza mainAxisAlignment .
 para centrar (o alinear) verticalmente , se utiliza crossAxisAlignment .
 
