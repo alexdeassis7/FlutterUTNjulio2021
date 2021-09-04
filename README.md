@@ -70,6 +70,15 @@ Tarea : ver siguientes links https://flutter.dev/docs/development/tools/devtools
 
 Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
 
+### Clase 6
+En una columna ,
+
+para centrar (o alinear) verticalmente , se utiliza mainAxisAlignment .
+para centrar (o alinear) horizontalmente , se utiliza crossAxisAlignment .
+En una fila ,
+
+para centrar (o alinear) horizontalmente , se utiliza mainAxisAlignment .
+para centrar (o alinear) verticalmente , se utiliza crossAxisAlignment .
 
 ### temas alumnos
 Rest consumer Service - Bloc Patron - Stream Builder - Circular progress Indicator (animaciones asincronicas)
