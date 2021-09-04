@@ -79,3 +79,6 @@ NOS POSICIONAMOS POR sobre la pantalla con los dos dedos del pad y con las flech
 ### PARA PONERLO VERTICAL U HORIZONTAL AL EMULADOR :
 NOS POSICIONAMOS POR sobre la pantalla con los dos dedos del pad y con las flechas IZQUIERDA Y DERECHA LO giramos
 
+### para aquel que esta familiarizado con CSS ver este link 
+https://esflutter.dev/docs/get-started/flutter-for/web-devs
+
