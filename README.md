@@ -76,8 +76,11 @@ Leer los Siguientes Link :
 https://blog.pleets.org/article/filas-y-columnas-en-flutter
 https://medium.com/gdg-ipn/layouts-en-flutter-filas-y-columnas-58a935caaeab
 
-Ejercitacion Tarea : leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
-
+Ejercitacion Tarea :
+1)Leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
+2)en el Ejercicio WhatsUpp deberan parametrizar la clase "ChatItem" creando los atributos necesarios y un constructor que penmitar modificar los atributos de la clase 
+    Ejemplo constructor  : ChatItem(urlImagen, mensajeRecibido , numeroDeCelularDeEmisorDeMensaje , hroaDeUltimoMensajeRecibido , cantidadDeMensajesSinLeer);
+    
 
 En una columna ,
 
