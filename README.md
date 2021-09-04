@@ -66,11 +66,16 @@ flutter run (para ejecutar nuestra app)
 *Layout leer siguiente tutorial https://esflutter.dev/docs/development/ui/layout
 
 ### Tarea Clase 5 
-Tarea : ver siguientes links https://flutter.dev/docs/development/tools/devtools y https://esflutter.dev/docs/development/ui/layout
+Tarea : ver siguientes links https://flutter.dev/docs/development/tools/devtools ,https://blog.pleets.org/article/widgets-en-flutter, y https://esflutter.dev/docs/development/ui/layout
 
 Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
 
 ### Clase 6
+
+Leer los Siguientes Link : 
+https://blog.pleets.org/article/filas-y-columnas-en-flutter
+
+
 Ejercitacion Tarea : leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
 
 
