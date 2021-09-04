@@ -74,7 +74,7 @@ Realizar ejercicio1 StateFull e intentar crear una "galeria de imagenes"
 
 Leer los Siguientes Link : 
 https://blog.pleets.org/article/filas-y-columnas-en-flutter
-
+https://medium.com/gdg-ipn/layouts-en-flutter-filas-y-columnas-58a935caaeab
 
 Ejercitacion Tarea : leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
 
