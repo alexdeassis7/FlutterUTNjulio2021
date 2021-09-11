@@ -76,6 +76,12 @@ Leer los Siguientes Link :
 https://blog.pleets.org/article/filas-y-columnas-en-flutter
 https://medium.com/gdg-ipn/layouts-en-flutter-filas-y-columnas-58a935caaeab
 
+### Clase 7 
+#### Demo login 
+#### Consumo de api rest 
+#### Tarea del proyecto "Consumiendo_rest_api" generar un layout para que se vean todo los nombre de los personajes de Start wars , imvestigar widgets
+ListView.builder() o utilizar el que les resulte mas amigable  ,
+
 Ejercitacion Tarea :
 #### 1)Leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
 #### 2)en el Ejercicio WhatsUpp deberan parametrizar la clase "ChatItem" creando los atributos necesarios y un constructor que penmitar modificar los atributos de la clase 
@@ -99,4 +105,6 @@ NOS POSICIONAMOS POR sobre la pantalla con los dos dedos del pad y con las flech
 
 ### para aquel que esta familiarizado con CSS ver este link 
 https://esflutter.dev/docs/get-started/flutter-for/web-devs
+
+## para formatear un json a clase dart usar este link  : https://javiercbk.github.io/json_to_dart/
 
