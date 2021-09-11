@@ -79,8 +79,10 @@ https://medium.com/gdg-ipn/layouts-en-flutter-filas-y-columnas-58a935caaeab
 ### Clase 7 
 #### Demo login 
 #### Consumo de api rest 
-#### Tarea del proyecto "Consumiendo_rest_api" generar un layout para que se vean todo los nombre de los personajes de Start wars , imvestigar widgets
+#### Tarea 1 del proyecto "Consumiendo_rest_api" generar un layout para que se vean todo los nombre de los personajes de Start wars , imvestigar widgets
 ListView.builder() o utilizar el que les resulte mas amigable  ,
+
+#### Tarea 2 crear un proyecto que consuma algun end point de la siguiente API REST https://rickandmortyapi.com/ una vez obtenido los datos mostrarlos por consola y el en layout de la app
 
 Ejercitacion Tarea :
 #### 1)Leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
