@@ -123,9 +123,16 @@ Main repository containing all the example apps demonstrating features/functiona
 
 
 Lookup Links: [[Setup Flutter](https://flutter.io/setup/)] [[Widgets Catalog](https://flutter.io/widgets/)] [[Dart Lang](https://flutter.io/bootstrap-into-dart/)]
-<img src="stateful_widget/demo_img.gif" height="300em" /> <img src="using_bottom_nav_bar/demo_img.gif" height="300em" /> <img src="dropdown_button/demo_img.gif" height="300em" /> <img src="using_stepper/demo_img.gif" height="300em" /> <img src="using_tabs/demo_img.gif" height="300em" /><img src="bottom_sheet/demo.gif" height="300em"/>
 
 ## Example apps
+
+<img src="stateful_widget/demo_img.gif" height="300em" /> 
+<img src="using_bottom_nav_bar/demo_img.gif" height="300em" />
+<img src="dropdown_button/demo_img.gif" height="300em" />
+<img src="using_stepper/demo_img.gif" height="300em" />
+<img src="using_tabs/demo_img.gif" height="300em" />
+<img src="bottom_sheet/demo.gif" height="300em"/>
+
 
 1. [Simple Material App](/simple_material_app)
 1. [Using Theme](/using_theme)
