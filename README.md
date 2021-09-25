@@ -84,6 +84,12 @@ ListView.builder() o utilizar el que les resulte mas amigable  ,
 
 #### Tarea 2 crear un proyecto que consuma algun end point de la siguiente API REST https://rickandmortyapi.com/ una vez obtenido los datos mostrarlos por consola y el en layout de la app
 
+### Clase 8 
+Colabora Hector: Les paso un par de cosas que encontré y me parecieron interesantes:
+https://github.com/lohanidamodar/flutter_ui_challenges
+https://blog.logrocket.com/best-practices-laying-out-flutter-app/
+
+
 Ejercitacion Tarea :
 #### 1)Leer y Realizar el siguiente tutorial para practicar conceptos de diseños basicos en flutter => https://flutter.dev/docs/codelabs/layout-basics
 #### 2)en el Ejercicio WhatsUpp deberan parametrizar la clase "ChatItem" creando los atributos necesarios y un constructor que penmitar modificar los atributos de la clase 
